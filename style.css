@@ -88,11 +88,19 @@ button:hover {
     box-shadow: 0 10px 15px 0 hsla(162, 83%, 55%, 0.253);
 }
 
+.ios:hover {
+    background-color: hsl(171, 65%, 49%);
+}
+
 .mac {
     background-color: hsl(233, 100%, 69%);
     border: 1px  solid hsl(233, 46%, 49%);
     border-bottom: 4px solid hsl(233, 46%, 49%);
     box-shadow: 0 5px 15px 0 hsla(0, 0%, 0%, 0.123);
+}
+
+.mac:hover {
+    background-color: hsl(221, 100%, 69%);
 }
 
 #track {
@@ -315,4 +323,264 @@ i {
 i:hover {
     cursor: pointer;
     color: hsl(171, 66%, 44%)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 375px) {
+
+
+
+    h1 {
+        font-size: 32px;
+        margin-bottom: 1rem;
+        width: 20rem;
+    }
+    
+    h2 {
+        font-size: 28px;
+    }
+
+
+    #header {
+        background-image: url(./images/bg-header-mobile.png);
+    }
+    
+    #header img {
+        margin: 7rem 0 4rem 0;
+    }
+    
+    #header p {
+        font-size: 16px;
+        width: 20.5rem;
+        line-height: 26px;
+        letter-spacing: .5px;
+
+    }
+    
+    .buttons {
+        flex-direction: column;
+    }
+    
+    button {
+        width: 320px;
+        margin-bottom: 1.5rem;
+    }
+
+    #track .primary {
+        text-align: center;
+    }
+    
+    
+    #track .primary h2 {
+        margin: 8rem 0 1rem 0;
+        width: 20rem;
+    }
+    
+    #track .primary p {
+        width: 19.6rem;
+        font-size: 16px;
+        line-height: 1.7rem;
+        margin-bottom: 4rem
+    }
+
+    #track .secondary {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    #track .secondary img {
+        width: 20rem;
+        right: 0;
+    }
+    
+    .content {
+        margin: 3.5rem 0 0 0;
+    }
+    
+    .content h3 {
+        margin-bottom: .5rem;
+    }
+    
+    .content p {
+        width: 19rem;
+        line-height: 1.7rem;
+
+    }
+    
+    #access {
+        margin-top: 8.6rem;
+    }
+
+    
+    #access .primary h2 {
+        margin-bottom: 1rem;
+        width: 20rem
+    }
+    
+    #access .primary p {
+        font-size: 16px;
+        width: 19.6rem;
+        line-height: 1.7rem;
+        margin-bottom: 4rem
+    }
+    
+    .img-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    #access img {
+        width: 20rem;
+    }
+    
+    #supercharge {
+        margin-top: 6.5rem;
+        text-align: center;
+  
+    }
+    
+    #supercharge h2 {
+        width: 20rem;
+        margin-bottom: 1rem;
+    }
+    
+    #supercharge .primary p {
+        width: 20rem;
+        font-size: 16px;
+        text-align: center;
+        margin-bottom: 5.5rem;
+    }
+    
+    #supercharge .secondary {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    #supercharge .secondary p {
+        width: 20rem;
+        font-size: 16px;
+        line-height: 1.8rem;
+        margin-bottom: 4rem;
+    }
+    
+    .left {
+        margin-top: 0;
+    }
+    
+    .middle {
+        margin: 0;
+    }
+    
+    #companies {
+        margin: 4rem 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .companies-img {
+        height: auto;
+        width: 8rem;
+        margin-bottom: 4rem
+   
+    }
+
+    #ibm {
+        width: 7rem;
+    }
+    
+    #microsoft {
+        height: auto;
+        width: 8.5rem
+    }
+    
+    #hp {
+        height: auto;
+        width: 7rem
+    }
+    
+    #vector {
+        height: auto;
+        width: 6.5rem
+    }
+    
+    #clipboard h2 {
+        margin-top: 2.2rem;
+        margin-bottom: 1rem;
+        width: 20rem;
+    }
+    
+    #clipboard p {
+        width: 19.1rem;
+        font-size: 16px;
+        line-height: 1.8rem;
+        margin-bottom: 3rem;
+    }
+    
+    #clipboard .buttons {
+        margin-bottom: 8rem
+    }
+    
+    footer {
+        width: 100%;
+        min-height: 31rem;
+        background-color: hsl(204, 24%, 96%);
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    footer img {
+        margin: 3rem;
+    }
+    
+
+    .links {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        position: static;
+        text-align: center;
+        align-self: center;
+        margin: 0;
+    }
+
+    .col {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 2rem;
+    }
+    
+    .margin-bot {
+        margin-bottom: 1.5rem;
+    }
+
+    .icons {
+        margin-bottom: 0;
+    }
+    
+    i {
+        color: hsl(210, 10%, 33%);
+        margin: 1rem;
+    }
+    
 }
