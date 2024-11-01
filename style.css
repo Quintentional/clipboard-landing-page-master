@@ -339,7 +339,9 @@ i:hover {
 
 @media(max-width: 375px) {
 
-
+    #layout {
+        width: 100%;
+    }
 
     h1 {
         font-size: 32px;
@@ -375,6 +377,10 @@ i:hover {
     button {
         width: 320px;
         margin-bottom: 1.5rem;
+    }
+
+    .ios {
+        margin-right: 0;
     }
 
     #track .primary {
@@ -518,6 +524,10 @@ i:hover {
         height: auto;
         width: 6.5rem
     }
+
+    #clipboard {
+        align-items: center;
+    }
     
     #clipboard h2 {
         margin-top: 2.2rem;
@@ -533,7 +543,7 @@ i:hover {
     }
     
     #clipboard .buttons {
-        margin-bottom: 8rem
+        margin-bottom: 8rem;
     }
     
     footer {
